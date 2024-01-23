@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignHjælpen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+            line-height: 1.5;
+        }
+        img {
+            margin: 0 auto; /* Sætter venstre og højre margin til auto, hvilket centrerer billedet */
+            display: block; /* Gør billedet til en blok, så margin:auto virker */
+        }
+    </style>
+</head>
+<body>
+     <!-- Header -->
+     <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/Logo.png" style="max-width:100%;height:auto;" alt="DesignHjælpens logo"></a>
+        </nav>
+
+    <!-- Søgefelt -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <form class="Søg" action="action_page.php">
+         <input type="text" placeholder="SØG..." name="Søgefelt">
+         <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </section>
+
+    <!-- Head -->
+    <section class="head" id="head">
+    </section>
+
+    <!-- Billede Top-->
+    <section class="headerimg">
+        <picture>
+            <source srcset="img/Header billede.png" media="(max-width: 600px)" alt="">
+            <source srcset="img/Header billede.png" media="(max-width: 1500px)">
+            <source srcset="img/Header billede.png">
+            <img src="img/Header billede.png"style="max-width:100%;height:auto;" alt=""
+            width="1350"
+            height="240">
+          </picture>
+    </section>
+
+    <!-- Velkommen -->
+    <section class="Velkommen">
+            <h1 style="font-size:6vw">Velkommen</h1>
+    </section>
+    
+    <div>
+        <p style="font-size:3.5vw" class="hej">Hej, her på siden kan du læse om nogle af de vigtigste ting, man skal have fokus på for, at lave en god og brugervenlig hjemmeside.</p>
+    </div>
+
+    <!-- Emner på siden -->
+    <section class="Emner">
+        <h2 style="font-size:5vw">EMNER PÅ SIDEN</h2>
+    </section>
+
+    <!-- Tekst -->
+    <section class="knaptekst">
+        <p style="font-size:3.5vw">Klik på en af nedenstående knapper, for at blive ført til det du gerne vil læse mere om.</p>
+    </section>
+
+    <!-- Knapper -->
+    <section class="Knapper" id="Knapper">
+        <section class="knapper-sektion">
+            <nav class="knappe-boks">
+
+                <a href="#Brugertest">
+                <button class="button">1. Brugertest</button>
+                </a>
+               
+                <a href="#crap">
+                <button class="button">2. C.R.A.P</button>
+                </a>
+
+                <a href="#POUR">
+                <button class="button">3. POUR</button>
+                </a>
+            </nav>
+        </section>
+    </section>
+
+    <!-- Til toppen knap -->
+    <section class="top" id="top">
+        <section class="top-section">
+            <nav class="top-boks">
+                <a href="#head">
+                    <button class="buttontop" style="width: 100%; height: 30%;">Gå til toppen</button>
+                </a>
+            </nav>
+        </section>
+    </section>
+
+    <!-- Brugertest -->
+    <section class="Brugertest"> 
+        <h3 id="Brugertest" style="font-size:5vw">1. Brugertest</h3>
+        <picture class="brugerbillede">
+            <source srcset="img/kobu-agency-7okkFhxrxNw-unsplash.jpg" media="(max-width: 300px)" alt="">
+            <source srcset="img/kobu-agency-7okkFhxrxNw-unsplash.jpg" media="(max-width: 400px)">
+            <source srcset="img/kobu-agency-7okkFhxrxNw-unsplash.jpg">
+            <img src="img/kobu-agency-7okkFhxrxNw-unsplash.jpg" style="max-width:100%;height:auto;" alt="To personer sidder sammen ved en computer"
+            width="500"
+            height="350">  
+        </picture>
+        <p class="b1" style="font-size: 2.7vw">Det er vigtigt at udføre brugertest på din hjemmeside. Dette er for at kunne ændre og optimere de ting, som ens målgruppe mener er gode eller skal gøres bedre. 
+                    <br> <br> Der er udført en brugertest på denne hjemmeside, under konstuktionen af hjemmesiden. Udfra denne brugertest er svarende taget i betragtning, og nogle af problemerne blev løst.
+                    <br> <br>Nogle af de ting som blev ændret, var tekststørrelsen, samt linjeafstanden. En ting testpersonerne godt kunne have tænkt sig var, at de selv kunne skrue op og ned for skriftstørrelsen, dette er dog ikke kommet med på hjemmesiden.
+                    <br> <br>Det som der skal ændres er lidt mere på det responsive, fordi når man når ned på små skærme, så bliver teksten blev meget småt og afstanden mellem alle afsnittende bliver meget store og ødelægger flowet på siden, dette har dog ikke været muligt at kunne rette op på.
+        </p>
+    </section>
+
+    <!-- CRAP -->
+    <section id="crap" class="crap">
+        <h3 style="font-size: 5vw">2. C.R.A.P</h3>
+    </section>
+        
+        <section class="craptekst">
+            <p style="font-size:2.7vw">I designverdenen er der fire centrale principper, der udgør rygraden i enhver vellykket grafisk komposition: Contrast, Repitition, Alignment og Proxmity, som omtales som CRAP principperne. Man bruger disse principper, som en vejledning til at lave et visuelt effektiv kommunikationsmiddel.
+            <br> <br> På denne hjemmeside, er CRAP principperne blevet brugt vejledene.</p>
+        </section>
+
+            <!-- C -->
+            <section class="crappunkt">
+                <h4 style="font-size:3.5vw">Contrast</h4>
+            </section>
+
+                    <section class="punkttekst">
+                        <p style="font-size:2.7vw"> Kontrast går ud på at fremhæve forskellige elementer. Kontrast er gælder helt fra tekst farve, til farven der ændre sig på din knap.
+                            <br><br> Ved at anvende kontrast kan man fremhæve vigtige elementer og skabe et visuelt hierarki. Dette kan opnås ved at skabe en foreskel i farve, størrelse, form og tekstur.
+                            <br><br> På denne hjemmeside, kan man se et eksempel på kontraster. Der er brugt en blå farver i samme farveskala, bare gjort mørkere og lysere. 
+                            <br><br>Derudover kan man se at når man holder musen over, eller klikker på en af knapperne, så skifter den farve til orange. 
+                            Dette er for at indikerer at man kan trykke på den og selvom man er farveblind, så kan man se en smule forskel i farven, da orange og blå er modsætninger på farveskalaen.
+                        </p>
+                    </section>
+
+            <!-- R -->
+            <section class="crappunkt">
+                <h4 style="font-size:3.5vw">Repitition</h4>
+            </section>
+
+                    <section class="punkttekst">
+                        <p style="font-size:2.7vw"> Repitition er gentagelser, hvilket handler om at skabe enhed og konsistens i et design ved at gentage elementer. 
+                            Dette kan være alt fra at gentage farver, former eller mønstre, hvilket giver designet en sammenhængende og enkel fremtoning. 
+                            <br><br>Repitition kan man se er brugt på hjemmesiden her i form af af knapperne er ens, hvilket gør det simpelt, samtidigt med at farverne læner sig op af hindanden, og skaber en rolig fornemmelse i øjnene. 
+                            <br><br>Der er også blevet gentaget med de blå og hvide striber der indeholder et nyt emne, for at gøre det let overskueligt at der er startet noget nyt.
+                            <br><br>Repitition er også brugt på teksten, da det giver et meget bedre og mere roligt udtryk, at teksten er den samme slags hele vejen.
+                        </p>
+                    </section>
+
+            <!-- A -->
+            <section class="crappunkt">
+                    <h4 style="font-size:3.5vw">Alignment</h4>
+            </section>
+
+                    <section class="punkttekst2">
+                        <p style="font-size:2.7vw">Alignment refererer til justeringen af elementer, i et design, i forhold til hinanden, for at skabe orden og bedre overblik for brugeren. 
+                            Dette gælder både vandret og lodret justering af tekst, billeder og andre grafiske elementer. 
+                            <br><br>Man kan også sige det er en måde at gruppere den tekst og de billeder der befinder sig på siden, således at den tekst og det billede der passer sammen, foreksempel er vandret med hinanden. 
+                            Eller at dine klikbare emner, bliver grupperet i en lodret eller vandret navigationsbar. 
+                            <br><br>Målet med alignmentpunktet er at skabe visuelt orden og harmoni, så øjet nemt kan følge og forstå indholdet. 
+                            <br><br>Hvis du ligger mærke til det, så er dette emne om CRAP principperne i en blå sektion, hvilket opdeler det fra de to andre punkter på siden, det er dette man kigger på i alignmentpunktet, altså skal det være nemt at kunne se hvad der høre sammen. 
+                            <br><br>Det samme er det med de tre emne knapper, som ligger vandret under Emner På Denne Side, da de er i en gruppe for sig, bliver det overskuligt da de ligger sammen og man forudser at de har meget samme funktion.
+                        </p>
+                    </section>
+
+            <!-- P -->
+            <section class="crappunkt">
+                <h4 style="font-size:3.5vw">Proximity</h4>
+            </section>
+
+                    <section class="punkttekst2">
+                            <p style="font-size: 2.7vw">Proximity, altså afstand på dansk, handler meget om det samme, som punktet Alignment. 
+                                <br><br>I Proximity går placeringen mere ud på, at øjet nemt og hurtigt kan se hvad der hører sammen. Altså eksempelvis at tekststykker, som har det samme fokuspunkt og eventuelt et billede, sidder tættere sammen, end nogle af de andre ting, som befinder sig på siden.
+                                Dette gør, at man hurtigt ved, at den tekst og det billede hører sammen. 
+                                <br><br>På denne måde undgår man forvirring og eventuelt misinformation til brugeren.
+                                <br><br>Dette punkt er igen meget det samme som i Alignment, derfor er det også meget de samme ting man kan se på hjemmesiden her.
+                                Altså at emner og knapper er indelt i hver sin sektion, for at man nemt og tydeligt kan se hvad der hører sammen
+                            </p>
+                    </section>
+
+    <!-- POUR -->
+    <section id="POUR" class="POUR">
+        <h3 style="font-size:5vw">3. POUR</h3>
+    </section>
+
+        <section class="pourtekst">
+            <p style="font-size:2.7vw">POUR-principperne er retningslinjer inden for webtilgængelighed. Principperne er defineret af World Wide Web Consortium (W3C), gennem Web Content Accessibility Guidelines (WCAG).
+                <br><br>Principperne er der, fordi man sigter mod at gøre digitale ressourcer mere tilgængelige, for alle personer uanset deres evner og behov.
+                POUR står for Perceivable (Opfattelig), Operable (Brugbar), Understandable (Forståelig) og Robust (Robust). 
+                <br><br>Det er ofte ikke noget man ligger mærke til, med mindre man har et andre behov eller nedsatte evner af en art. Det er nemlig noget der ligger i kodningen, og små elementer i dit design, som kan være med til at optimere brugervenligheden ydeligere.
+            </p>
+        </section>
+
+            <!-- Perceivable -->
+            <section class="pourpunkt">
+                <h4 style="font-size:3.5vw">Perceivable (Opfattelig)</h4>
+            </section>
+
+                    <section class="punkttekst3">
+                        <p style="font-size:2.7vw">For at opfylde dette princip skal information og brugsgrænseflader præsenteres på en måde, der er opfattelig for alle brugere, uanset deres sanselige evner. 
+                            <br><br>Dette omfatter foreksempel at lave alternativer til ikke-tekstbaseret indhold, såsom billedbeskrivelser for synshandicappede, teksttranskriptioner til lydindhold og tilbyde justerbare skrifttyper og farvekontraster.
+                            <br><br>Man skal sætte sig ind i hvordan ens målgruppe bevæger sig rundt online. Altså så skal man tage hensyn til en skærmoplæser læser alt den har fået fortalt den skal læse, derfor er det vigtig som den der koder, at man sørger for at alt vigtigt kan blive læst op. 
+                            <br><br>På samme side skal man også sørge for at alt udnødvendigt ikke bliver læst op, foreksempel hvis du har et pyntebillede, som ingen relevans har, så skal man udlade at udfylde en 'alt-text' i sin kodning.
+                            <br><br>På denne hjemmeside, kan man godt nok ikke visuelt se eksempler på alternativer til ikke-tekstbaseret indhold, medmindre man har en skærmoplæser. 
+                            <br><br>Men det er lavet sådan at, header og footer billederne, ikke har en alternativ tekst, da de udelukket er blevet brugt, som pyntebilleder for et æstetisk pænt udseende.
+                            <br>Header og footer billederne er ikke vigtig information, derfor undlades den alternativetekst, da det kun ville forvirre en med en skærmoplæser. 
+                            <br><br>Dog har billedet ved brugertesten en alternativtekst, da det fortæller hvad der sker i forbindelse med brugertesten, altså at man sætter sig ned sammen og gennemgår hjemmesiden.
+                        </p>
+                    </section>
+            
+            <!-- Operable -->
+            <section class="pourpunkt">
+                 <h4 style="font-size:3.5vw">Operable (Brugbar)</h4>
+            </section>
+        
+                    <section class="punkttekst4">
+                        <p style="font-size:2.7vw">Brugbarhedsprincippet er afgørende for at sikre, at alle brugere kan interagere effektivt med de digitale ressourcer. 
+                            <br><br>Dette indebærer at gøre navigationsmekanismer og interaktive elementer tilgængelige via tastatur eller andet input, så personer med motoriske begrænsninger har samme mulighed for at bevæge sig rundt online, som en person uden begrænsinger. 
+                        </p>
+                    </section>
+            
+            <!-- Understandable -->
+            <section class="pourpunkt">
+                <h4 style="font-size:3.5vw">Understandable (Forståelig)</h4>
+           </section>
+       
+                   <section class="punkttekst5">
+                       <p style="font-size:2.7vw">Forståelighedsprincippet fokuserer på, at information og betjening af digitale ressourcer, så som hjemmesider eller apps, er klare og letforståelige for alle brugere, uanset deres baggrund og evner.
+                        <br><br> Den nemmeste måde at få en smule af forståelighedsprincippet ind på sin hjemmeside, er ved at være meget klar og enkel i ens sprog, samt sørge for at fejlmeldinger uddybende beskriver hvad der er galt
+                        <br><br>Ens hjemmeside skal være tydelig og ensartet i layoutet, navigationen og designet, da det hjælper med at skabe en mere forudsigelig brugeroplevelse. 
+                        Altså hjælper det meget hvis indholdet på en hjemmeside er logisk organiseret, da dette gør det nemt for brugerne at finde det, de leder efter, da de vil kigge efter det de leder efter, hvor det giver mest mening. 
+                        <br><br>Det er også her CRAP-principperne kommer i spil, da en velstruktureret navigation og tydelig hierarki, i form af tekst, farver og grupperinger, hjælper brugere med at orientere sig og forstå forholdet mellem forskellige dele af indholdet.
+                        <br><br>Som sagt er det her man ser CRAP-principperne komme i spil, og ligesom beskrevet oppe ved CRAP-principperne, så er der brugt få forskellige farver, og meget simpel tekst opstilling, med tydelige mellemrum og farveændring. 
+                        Deruover er sproget noget der ville kunne forståes af mange, uanset baggrund. 
+                        </p>
+                   </section>
+
+            <!-- Robust -->
+            <section class="pourpunkt">
+                <h4 style="font-size:3.5vw">Robust (Robust)</h4>
+           </section>
+       
+                   <section class="punkttekst5">
+                       <p style="font-size:2.7vw">Robusthedsprincippet er der for at sikre, at alle digitale hjælpemidler vil forblive brugbare og effektive uanset teknologien, browseren og enheden man befinder sig på. 
+                        <br><br>Dette princip sørger for at risikoen for ændringer i standard teknologi, bliver mindsket sådan at webindhold stadig vil være tilgængelig for dem som har brug for ekstra værktøjer for at udføre handlinger online. 
+                        <br><br>For at opfylde robusthedsprincippet på sin hjemmeside, skal man altså sørge for, at man har opmærket sin kode rigtigt, sådan så brugernes hjælpeværktøjer kan aflæse koden korrekt.
+                        <br><br>Dette princip er ikke noget man tydeligt kan se, er emplementeret på denne hjemmeside, da det er noget, som foregår i kodningen. 
+                        <br><br>I kodningen er der blevet brugt en slags overskrifter, som dikterer i hvilken rækkefølge tingene er vigtigst, altså er en h1 vigtigere end en h2, da h1 altid bliver brugt, som den størte overskrift på hjemmesiden. 
+                        <br>Dette hjælper skærmoplæseren til at finde ud af hvilken rækkefølge den skal læse tekten op i.
+                        <br><br>Derudover er teksten delt op i sektioner, sådan så skærmoplæseren ved hvornår der er et afsnit.
+                        </p>
+                   </section>
+
+    <!-- Footer billede -->
+    <section class="footer">
+        <picture>
+            <source srcset="img/Footer billede.png" media="(max-width: 600px)" alt="">
+            <source srcset="img/Footer billede.png" media="(max-width: 1500px)">
+            <source srcset="img/Footer billede.png">
+            <img src="img/Footer billede.png" style="max-width:100%;height:auto;" alt=""
+            width="1350"
+            height="240">
+        </picture>
+    </section>
+</body>
+</html>
